@@ -1,0 +1,26 @@
+Movement
+========
+h,j,k,l				left,down,up,right
+w,W,3w,b,B,3b			forward next word,"",forward 3 words,backward word,"",backward 3 words
+gg,G,10gg,10G			Go to first line,"",go to 10th line,""
+0,$,^,M				Go to first char in line,end char in line,non black,middle screen
+fa,Fa,ta,Ta			go to next a in line,previous a in line,end of next a,end of previous a 
+
+Screen move
+-----------
+ctrl-(d,f,e,u,b,y)		move half screen down,page down,one line down,half screen up,page up,one line up
+z,zt,zz,z-,zb			move current line to the top,without changing crusor location,current line to center of the screen, without cursor
+
+Search in Text
+==============
+/,?				Use n\N to next\previous match,backward match
+*,g*,#,g#			word under cursor,word under cursor partial match,backward exact math, backward partial
+/\<str\>,:set ignorecase 	Search for exact "str",ignore case sensitive
+
+Text Manipulation
+=================
+u,ctrl-r			Undo,Redo
+i,I,s,S,a,A,O			Insert mode,insert beginning of line,delete char,delete line,insert mode after cursor,insert below cursor line,go to bottom line
+
+
+
